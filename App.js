@@ -15,7 +15,6 @@ const Stack = createNativeStackNavigator();
 
 const MposScreen = ({navigation}) => (
   <Mpos
-    amount={500}
     token=""
     apiUrl="https://api.alerzopay.com/v2/terminals/"
     goBack={() => navigation.goBack()}
